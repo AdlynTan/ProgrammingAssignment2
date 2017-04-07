@@ -7,10 +7,10 @@
 
 
 makeCacheMatrix <- function(x = matrix()) {
-        inv<-NULL
+        inv<-NULL #set the value of variable
         set<-function(y){
-                x<<-y
-                inv<<-NULL
+                x<<-y #assign value
+                inv<<-NULL #assign a value to an object in an environment that is different from the current environment.
         }
         get<-function()x
         setInverse<-function(inverse)inv<<-inverse
