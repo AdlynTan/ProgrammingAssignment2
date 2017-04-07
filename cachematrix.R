@@ -1,10 +1,10 @@
 #makeCacheMatric would do the following:
 #1. set the matrix
-	# 2. get the matrix
-	# 3. set the inverse of the matrix
-	# 4. get the inverse of the matrix
+# 2. get the matrix
+# 3. set the inverse of the matrix
+# 4. get the inverse of the matrix
 
-## Write a short comment describing this function
+
 
 makeCacheMatrix <- function(x = matrix()) {
         inv<-NULL
